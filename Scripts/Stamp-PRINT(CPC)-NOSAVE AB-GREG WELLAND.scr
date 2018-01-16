@@ -1,0 +1,24 @@
+;INSERT BLOCK
+-INSERT
+"S:\BR-S\gsGRP\GROUP\ENGCAD\00.000 CAD Management\700\702 Blocks\P.Eng Stamps\AB-GREG WELLAND.dwg"
+570,30
+1
+
+0
+zoom e
+regenall
+;Print CPC drawing
+PrintPlotLayout-CPC
+DELAY
+4000
+erase
+last
+
+-PURGE
+BLOCKS
+"AB-*"
+N
+-PURGE
+BLOCKS
+"Permit to Practise"
+N

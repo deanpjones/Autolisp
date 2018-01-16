@@ -1,0 +1,15 @@
+;INSERT BLOCK
+-INSERT
+"S:\BR-S\gsGRP\GROUP\ENGCAD\00.000 CAD Management\700\702 Blocks\General Blocks\For Estimate Only.dwg"
+0,0
+1
+
+0
+SetPlotLayout-CPC
+zoom e
+regenall
+;Creates a pdf
+_BbsiSave
+
+DELAY
+4000

@@ -1,0 +1,75 @@
+MYSAVEAS
+;INSERT BLOCK
+-INSERT
+"P:\_ConocoPhillips\General\CPC No Block(Field).dwg"
+323.8935,64
+0.75
+
+0
+;SQUASH THE FIELD TO TEXT.
+ExpFieldISO
+;Update the revision.
+-ATTEDIT
+Y
+Titleblock
+
+
+8.2747,16.1327
+
+v
+r
+1
+n
+-ATTEDIT
+Y
+Titleblock
+
+
+18.6383,16.1327
+
+v
+r
+DJ
+n
+-ATTEDIT
+Y
+Titleblock
+
+
+32.9993,16.1327
+
+v
+r
+08.03.28
+n
+-ATTEDIT
+Y
+Titleblock
+
+
+48.2977,16.1327
+
+v
+r
+ADDED CPC DRAWING NUMBER
+n
+-ATTEDIT
+Y
+Titleblock
+
+
+392.3785,7.2139
+
+v
+r
+1
+n
+SetPlotLayout
+zoom e
+regenall
+;Creates a pdf
+_BbsiSave
+
+DELAY
+4000
+qsave

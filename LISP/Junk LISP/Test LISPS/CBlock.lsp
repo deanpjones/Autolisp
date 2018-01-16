@@ -1,0 +1,13 @@
+(defun c:Cblock()
+;(C)Jorge Jimenez Ulate, SICAD S.A., 2000
+(vl-load-com)
+(prompt "\n(Use double quotes if block name contains spaces)")
+(setq mibloque (getstring "\nName of block:"))
+(prompt (strcat "\nSelect the block you want replaced with " mibloque))
+(while (setq myblock (entsel))
+(setq mb (car myblock))
+(setq mbobj (vlax-ename->vla-object mb))
+(setq nblock (vlax-put-property mbobj 'name mibloque))
+)
+(princ)
+)

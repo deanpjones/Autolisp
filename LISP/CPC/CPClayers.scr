@@ -1,0 +1,139 @@
+;CPC Layers
+;Dean Jones, Dec.09, 2011
+layer set 0  
+
+layer make 0 color white  ltype continuous  lweight default
+ 
+layer make 10000lb color 255  ltype continuous  lweight default
+ 
+layer make 1500lb color 10  ltype continuous  lweight default
+ 
+layer make 150lb color 50  ltype continuous  lweight default
+ 
+layer make 2000lb color 200  ltype continuous  lweight default
+ 
+layer make 2500lb color 130  ltype continuous  lweight default
+ 
+layer make 3000lb color 200  ltype continuous  lweight default
+ 
+layer make 300lb color 80  ltype continuous  lweight default
+ 
+layer make 4000lb color 255  ltype continuous  lweight default
+ 
+layer make 400lb color 255  ltype continuous  lweight default
+ 
+layer make 5000lb color 255  ltype continuous  lweight default
+ 
+layer make 6000lb color 200  ltype continuous  lweight default
+ 
+layer make 600lb color 160  ltype continuous  lweight default
+ 
+layer make 900lb color 210  ltype continuous  lweight default
+ 
+layer make "AG Pipe-Site Plan" color 70  ltype continuous  lweight default
+ 
+layer make Attrib color yellow  ltype continuous  lweight default
+ 
+layer make BOM color yellow  ltype continuous  lweight default
+ 
+layer make Border1 color green  ltype continuous  lweight default
+ 
+layer make Border2 color yellow  ltype phantom  lweight default
+ 
+layer make Building color red  ltype continuous  lweight default
+ 
+layer make "Cable Tray" color 191  ltype continuous  lweight default
+ 
+layer make Center color 9  ltype center  lweight default
+ 
+layer make Concrete color 51  ltype continuous  lweight default
+ 
+layer make Constr color white  ltype continuous  lweight default
+ 
+layer make Contin color red  ltype continuous  lweight default
+ 
+layer make Dash color red  ltype dashed  lweight default
+ 
+layer make Defpoints color white  ltype continuous  lweight default
+ 
+layer make DoNotPrint color white  ltype continuous  lweight default  plot no
+ 
+layer make Dimension color 11  ltype continuous  lweight default
+ 
+layer make Elec color 141  ltype hidden  lweight default
+ 
+layer make Equip color 54  ltype continuous  lweight default
+ 
+layer make Existing color 8  ltype continuous  lweight default
+ 
+layer make Fence color 41  ltype fenceline3  lweight default
+ 
+layer make Future color 8  ltype hidden  lweight default
+ 
+layer make Grating color 8  ltype continuous  lweight default
+ 
+layer make Grid color BLUE  ltype dot  lweight default
+ 
+layer make Handwheels color 8  ltype continuous  lweight default
+ 
+layer make Hatch color white  ltype continuous  lweight default
+ 
+layer make "HG Road" color red  ltype continuous  lweight default
+ 
+layer make Hidden color red  ltype hidden  lweight default
+ 
+layer make Instr color red  ltype continuous  lweight default
+ 
+layer make Logo color white  ltype continuous  lweight default
+ 
+layer make LSD color 9  ltype divide2  lweight default
+ 
+layer make Misc color white  ltype continuous  lweight default
+ 
+layer make MTO-BAL color red  ltype continuous  lweight default
+ 
+layer make Phantom color cyan  ltype phantom  lweight default
+ 
+layer make Piles-Piling color green  ltype continuous  lweight default
+ 
+layer make Piles-Piping&Steel color 8  ltype continuous  lweight default
+ 
+layer make PLROW color yellow  ltype divide  lweight default
+ 
+layer make Road-Piping color 8  ltype continuous  lweight default
+ 
+layer make "Road-Site Plan" color 90  ltype continuous  lweight default
+ 
+layer make Steel color 40  ltype continuous  lweight default
+ 
+layer make Steel-Piping color 141  ltype continuous  lweight default
+ 
+layer make Steel-Light color 8  ltype continuous  lweight default
+ 
+layer make Supts color 15  ltype continuous  lweight default
+ 
+layer make Text1 color white  ltype continuous  lweight default
+ 
+layer make Text2 color green  ltype continuous  lweight default
+ 
+layer make Titleblock color white  ltype continuous  lweight default
+ 
+layer make "UG Pipe-Site Plan" color magenta  ltype hidden  lweight default
+ 
+layer make Viewport color 9  ltype continuous  lweight default  plot no
+ 
+layer make Wipeout color 9  ltype continuous  lweight default
+ 
+layer make Flanges color magenta  ltype continuous  lweight default
+ 
+layer make Process color green  ltype continuous  lweight default
+ 
+layer make Tubing color 21  ltype continuous  lweight default
+ 
+layer make Utility color yellow  ltype continuous  lweight default
+ 
+layer make Valves color magenta  ltype continuous  lweight default
+ 
+layer make CPC color white  ltype continuous  lweight default
+ 
+layer set 0  

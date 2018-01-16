@@ -1,0 +1,20 @@
+MYSAVEAS
+REVUP2
+;INSERT BLOCK
+-INSERT
+"P:\_ConocoPhillips\General\CPC No Block(Field).dwg"
+750,60
+1
+
+0
+;SQUASH THE FIELD TO TEXT.
+ExpField
+SetPlotLayout
+zoom e
+regenall
+;Creates a pdf
+_BbsiSave
+
+DELAY
+4000
+qsave

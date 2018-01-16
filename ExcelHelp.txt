@@ -1,0 +1,3 @@
+Formulas not showing
+-CTRL+` to show formulas
+-set format to GENERAL (not TEXT)

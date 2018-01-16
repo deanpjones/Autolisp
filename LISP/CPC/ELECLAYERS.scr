@@ -1,0 +1,58 @@
+;CPC AutoFLOW Layers as of Mar. 2007
+layer set 0  
+
+audit yes
+ 
+purge all * no
+ 
+purge all * no
+ 
+purge all * no
+ 
+purge all * no
+ 
+layer make 0 color white  ltype continuous  lweight default
+ 
+layer make Attrib color yellow  ltype continuous  lweight default
+ 
+layer make Border1(CLOUD) color 3  ltype continuous  lweight default
+ 
+layer make Border2 color yellow  ltype continuous  lweight default
+ 
+layer make BUS_BAR color 4  ltype continuous  lweight default
+ 
+layer make CABLE_TRAY color 210  ltype continuous  lweight default
+ 
+layer make CENTER color 9  ltype center  lweight default
+ 
+layer make COND_CABLE color 84  ltype dashed  lweight default
+ 
+layer make CONTIN color 1  ltype continuous  lweight default
+ 
+layer make DASH color 1  ltype Dashed  lweight default
+ 
+layer make DIMENSION color 11  ltype continuous  lweight default
+ 
+layer make DOT color 7  ltype Dot  lweight default
+ 
+layer make FIELD_WIRING color 160  ltype Dashed  lweight default
+ 
+layer make GROUND_WIRING color 210  ltype Center  lweight default
+ 
+layer make HIDDEN color 1  ltype Hidden  lweight default
+ 
+layer make INSTR color 170  ltype continuous  lweight default
+ 
+layer make PANEL_WIRING color 10  ltype continuous  lweight default
+ 
+layer make Phantom color cyan  ltype phantom  lweight default
+ 
+layer make SYMBOLS color 92  ltype continuous  lweight default
+ 
+layer make Text1 color white  ltype continuous  lweight default
+ 
+layer make Text2 color 3  ltype continuous  lweight default
+ 
+layer make UG_COND_CBL color 160  ltype Dashed  lweight default
+ 
+layer set 0  

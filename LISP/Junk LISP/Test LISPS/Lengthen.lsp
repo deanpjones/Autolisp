@@ -1,0 +1,47 @@
+;Lengthen PLUS-MINUS toggle.
+;Dean Jones Aug.10, 2006.
+
+;**********************************************************************************
+;**********************************************************************************
+
+(defun LENGTH-MINUS ( / num)
+
+(setq num (- (/ (getvar "ltscale") 10)))
+(princ (strcat "\nEnter delta length or [Angle] <" (rtos num) ">: " (rtos num)))
+(command "lengthen" "de" num pause nil)
+
+(princ)
+)
+
+;**********************************************************************************
+
+(defun LENGTH-PLUS ( / num)
+
+(setq num (/ (getvar "ltscale") 10))
+(princ (strcat "\nEnter delta length or [Angle] <" (rtos num) ">: " (rtos num)))
+(command "lengthen" "de" num pause nil)
+
+(princ)
+)
+
+;**********************************************************************************
+;**********************************************************************************
+;??????????????????????????????????????????????????????????????????????????????????
+;WORKS EXCEPT FOR WHEN TOGGLING IT DOES ONE MORE LENGTHEN BEFORE SUBTRACTING, THEREFORE CAUSING THE WRONG EFFECT.
+;MAY NEED TO ADD A NIL TO CANCEL THE COMMAND, OR CREATE MY OWN LENGTH ROUTINE, BECAUSE OTHERWISE IT WILL STAY IN EFFECT EACH CLICK, 
+;AND NOT ALLOW THE USER TO PLUS THEN SUBTRACT.
+;??????????????????????????????????????????????????????????????????????????????????
+(defun C:LENGTHEN-TOGGLE ( / )
+
+	(while
+	(cond
+((= T (acet-sys-shift-down)) (LENGTH-MINUS))
+(T (LENGTH-PLUS))
+(T nil)
+	)
+	)
+)
+
+;**********************************************************************************
+;**********************************************************************************
+

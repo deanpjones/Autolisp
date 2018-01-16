@@ -1,0 +1,4 @@
+;Turn all objects in drawing to BYLAYER
+select all 
+ 
+chprop p  color bylayer ltype bylayer lweight bylayer  

@@ -1,0 +1,3 @@
+(COMMAND "ROTATE" "ALL" "" "0.0" "1")
+delay 10
+rscript

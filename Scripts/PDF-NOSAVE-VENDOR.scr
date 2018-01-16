@@ -1,0 +1,8 @@
+SetPlotLayout-VENDOR
+zoom e
+regenall
+;Creates a pdf
+_BbsiSave
+
+DELAY
+4000
